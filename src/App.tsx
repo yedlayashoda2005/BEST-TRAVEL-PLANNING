@@ -6,6 +6,7 @@ import { PlanningWorkspace } from './components/PlanningWorkspace';
 import { Footer } from './components/Footer';
 import { AuthModal } from './components/AuthModal';
 import { CompareModal } from './components/CompareModal';
+import { N8nChatWidget } from './components/N8nChatWidget';
 import { CheckCircle2 } from 'lucide-react';
 
 const AppContent: React.FC = () => {
@@ -28,9 +29,10 @@ const AppContent: React.FC = () => {
       {/* Footer */}
       <Footer />
 
-      {/* Modals */}
+      {/* Modals & AI Chatbot */}
       <AuthModal />
       <CompareModal />
+      <N8nChatWidget />
 
       {/* Global Toast Notification */}
       {toastMessage && (
