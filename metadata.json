@@ -1,0 +1,6 @@
+{
+  "name": "TravelMate",
+  "description": "Smart Travel Planning Website to discover tourist places, compare flights and hotels, optimize budgets, and generate day-by-day itineraries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
